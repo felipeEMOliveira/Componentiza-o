@@ -1,0 +1,26 @@
+div.card {
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 5px;
+}
+
+h1.title {
+  padding: 5px 0;
+  font-size: 25px;
+  display: flex;
+  justify-content : center;
+  background-color: #0a111f;
+  color: #f2f2f2;
+}
+
+div.content {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  color: #0a111f;
+  padding: 10px;
+}
